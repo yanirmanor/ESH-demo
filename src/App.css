@@ -1,0 +1,25 @@
+/* Make sure html and body take the full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Ensure the parent container has a specific height */
+#root {
+  height: 100%;
+}
+
+.ag-theme-alpine {
+  height: 80%; /* Set the grid height to 80% of its parent container */
+  width: 100%;
+}
+
+.ag-theme-alpine .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+.ag-theme-alpine button {
+  margin-right: 5px;
+}
